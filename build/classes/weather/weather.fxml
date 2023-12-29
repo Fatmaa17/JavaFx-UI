@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="BPane" prefHeight="416.0" prefWidth="622.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="weather.weatherC">
+    <left>
+        <AnchorPane prefHeight="437.0" prefWidth="308.0" BorderPane.alignment="CENTER">
+            <children>
+                <Pane fx:id="alex">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/Alex.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Alexandria" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Pane fx:id="aswan">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/Aswan.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Aswan" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                <Pane fx:id="beni">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/BeniSuef.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Beni Suef" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="cairo">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/Cairo.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Cairo" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="dkhlia">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/Dakahlia.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Dakahlia" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="demiat">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/Damietta.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Damietta" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="bhira">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/ElBeheira.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="ElBeheira" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="fyom">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../Images/Fayoum.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Al-Fayoum" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="ghr">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../Images/Gharbia.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Al-Gharbia" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="giza">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../Images/Giza.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Giza" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                <Pane fx:id="ismlia">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../Images/Isailiah.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Isailiah" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            
+                      <Pane fx:id="ksh">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../Images/Menofia.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Kafr ElSheikh" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+                
+                      <Pane fx:id="lux">
+                    <children>
+                        <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                            <image>
+                                <Image url="@../Images/Luxor.jpg" />
+                            </image>
+                        </ImageView>
+                        <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Luxor" textFill="#301212">
+                            <font>
+                                <Font name="Chiller" size="31.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Pane>
+            <Pane fx:id="meno">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/Menofia.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Menofia" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="mnia">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/miinya.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Al-Menia" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="mtroh">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/mutrh.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Matrouh" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="newvly">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/new%20valley.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="New Valley" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="norths">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/north%20sinia.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="North Sinia" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="port">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/port%20said.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Port Saied" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="kna">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="300.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/qena.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Qena" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="qlu">
+               <children>
+                  <ImageView fitHeight="400.0" fitWidth="301.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/qulabia.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Qalubia" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="shrk" layoutX="6.0" layoutY="6.0" prefHeight="394.0" prefWidth="294.0">
+               <children>
+                  <ImageView fitHeight="422.0" fitWidth="312.0" layoutX="-6.0" layoutY="-8.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/sharqua.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Sharkia" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="shag" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <ImageView fitHeight="423.0" fitWidth="310.0" layoutX="-10.0" layoutY="-10.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/sohag.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Sohag" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="ss" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <ImageView fitHeight="426.0" fitWidth="310.0" layoutX="-10.0" layoutY="-12.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/south%20sinia.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="South Sainai" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="31.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="s" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <ImageView fitHeight="425.0" fitWidth="312.0" layoutX="-12.0" layoutY="-11.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/south.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="South" textFill="WHITE">
+                     <font>
+                        <Font name="Chiller" size="56.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <Pane fx:id="suez" layoutX="10.0" layoutY="10.0">
+               <children>
+                  <ImageView fitHeight="421.0" fitWidth="313.0" layoutX="-10.0" layoutY="-10.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/suez.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="94.0" prefHeight="88.0" prefWidth="168.0" text="Suez" textFill="#301212">
+                     <font>
+                        <Font name="Chiller" size="66.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            </children>
+        </AnchorPane>
+    </left>
+    <right>
+        <Pane fx:id="paneS" prefHeight="200.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="437.0" prefWidth="609.0">
+               <children>
+                  <ImageView fx:id="b1" fitHeight="437.0" fitWidth="320.0" layoutX="-10.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/sunny.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="b2" fitHeight="437.0" fitWidth="310.0" layoutX="310.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/rainy.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="b3" fitHeight="446.0" fitWidth="310.0" layoutX="310.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../Images/cloudy.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="-2.0" layoutY="126.0" prefHeight="53.0" prefWidth="218.0" text="Enter the city">
+                     <font>
+                        <Font name="Gigi" size="35.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="36.0" fitWidth="41.0" layoutX="242.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/cross.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="exit" layoutX="230.0" layoutY="1.0" prefHeight="52.0" prefWidth="60.0" />
+                  <Button fx:id="btn1" layoutX="13.0" layoutY="299.0" mnemonicParsing="false"  opacity="0.42" prefHeight="42.0" prefWidth="109.0" style="-fx-background-radius: 35px;" text="Temprature" textAlignment="CENTER" textFill="RED">
+                     <font>
+                        <Font name="Gigi" size="18.0" />
+                     </font>
+                  </Button>
+                  <ComboBox fx:id="cb" cacheShape="false" editable="true" layoutX="13.0" layoutY="253.0" opacity="0.41" prefWidth="150.0" style="-fx-border-color: transparent;" visibleRowCount="26" />
+               </children>
+            </Pane>
+         </children></Pane>
+    </right>
+</BorderPane>
